@@ -172,3 +172,4 @@ D:\GitHub\AspNetCoreWebApi\EventWebApi\obj\Debug\net6.0\refint\EventWebApi.dll
 D:\GitHub\AspNetCoreWebApi\EventWebApi\obj\Debug\net6.0\EventWebApi.pdb
 D:\GitHub\AspNetCoreWebApi\EventWebApi\obj\Debug\net6.0\EventWebApi.genruntimeconfig.cache
 D:\GitHub\AspNetCoreWebApi\EventWebApi\obj\Debug\net6.0\ref\EventWebApi.dll
+D:\GitHub\AspNetCoreWebApi\EventWebApi\bin\Debug\net6.0\Newtonsoft.Json.dll

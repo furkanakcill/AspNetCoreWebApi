@@ -3729,11 +3729,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GitHub\\EventWebApi\\EventWebApi\\EventWebApi.csproj",
+      "projectUniqueName": "D:\\GitHub\\AspNetCoreWebApi\\EventWebApi\\EventWebApi.csproj",
       "projectName": "EventWebApi",
-      "projectPath": "D:\\GitHub\\EventWebApi\\EventWebApi\\EventWebApi.csproj",
+      "projectPath": "D:\\GitHub\\AspNetCoreWebApi\\EventWebApi\\EventWebApi.csproj",
       "packagesPath": "C:\\Users\\akcil\\.nuget\\packages\\",
-      "outputPath": "D:\\GitHub\\EventWebApi\\EventWebApi\\obj\\",
+      "outputPath": "D:\\GitHub\\AspNetCoreWebApi\\EventWebApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\akcil\\AppData\\Roaming\\NuGet\\NuGet.Config",

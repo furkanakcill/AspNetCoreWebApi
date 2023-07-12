@@ -36,7 +36,7 @@ namespace EventWebApi.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<Category>> CreateCategory(Category category)
+        public async Task<ActionResult<Category>> CreateCategory([FromQuery]Category category)
         {
             _context.Categories.Add(category);
             await _context.SaveChangesAsync();

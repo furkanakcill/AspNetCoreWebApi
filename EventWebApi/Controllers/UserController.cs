@@ -35,7 +35,7 @@ namespace WebApplicationEventApi.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<User>> CreateUser(User user)
+        public async Task<ActionResult<User>> CreateUser([FromQuery] User user)
         {
             _context.Users.Add(user);
             await _context.SaveChangesAsync();
@@ -44,7 +44,7 @@ namespace WebApplicationEventApi.Controllers
         }
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateUser(int id, User user)
+        public async Task<IActionResult> UpdateUser(int id, [FromQuery] User user)
         {
             if (id != user.Id)
             {

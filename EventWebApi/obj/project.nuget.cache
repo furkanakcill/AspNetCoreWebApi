@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZXmhoLsbps7SuUu4PLTzE/+ZiGO8HJYExY/WLrUmmOeKOC9luX3tjPHnWYQuN0f4I2fS71Za//RB7zwPyIm+uw==",
+  "dgSpecHash": "BPaD8UkLB/arPLLnnuMjWWH7PTVe8FQCAuUQvXO1ka9LPVNuYxnb6gtLSAHlc8Cz0xN6ZX2cCaPNuTzxkR8x4A==",
   "success": true,
-  "projectFilePath": "D:\\GitHub\\EventWebApi\\EventWebApi\\EventWebApi.csproj",
+  "projectFilePath": "D:\\GitHub\\AspNetCoreWebApi\\EventWebApi\\EventWebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\akcil\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\akcil\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

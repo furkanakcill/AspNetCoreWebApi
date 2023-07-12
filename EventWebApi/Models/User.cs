@@ -1,4 +1,7 @@
-﻿namespace EventWebApi.Models
+﻿using System.ComponentModel.DataAnnotations.Schema;
+using System.ComponentModel.DataAnnotations;
+
+namespace EventWebApi.Models
 {
     public class User
     {
@@ -9,6 +12,6 @@
         public string PhoneNumber { get; set; } = string.Empty;
         public string Address { get; set; } = string.Empty;
 
-        public List<EventUser> EventUsers { get; set; }
+        public List<EventUser>? EventUsers { get; set; }
     }
 }

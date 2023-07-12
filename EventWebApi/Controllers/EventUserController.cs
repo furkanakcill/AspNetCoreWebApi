@@ -36,7 +36,7 @@ namespace EventWebApi.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<EventUser>> CreateEventUser(EventUser eventUser)
+        public async Task<ActionResult<EventUser>> CreateEventUser([FromQuery]EventUser eventUser)
         {
             _context.EventUsers.Add(eventUser);
             await _context.SaveChangesAsync();
@@ -45,7 +45,7 @@ namespace EventWebApi.Controllers
         }
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateEventUser(int id, EventUser eventUser)
+        public async Task<IActionResult> UpdateEventUser(int id, [FromQuery] EventUser eventUser)
         {
             if (id != eventUser.Id)
             {
